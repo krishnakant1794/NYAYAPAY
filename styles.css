@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    overflow: auto; /* Allow scrolling */
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#starCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%; /* Changed from 100vh to 100% to avoid blocking scroll */
+    z-index: -1; /* Ensure the canvas is in the background */
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+    margin-bottom: 50px; /* Added space below header */
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px; /* Ensure enough space below logo */
+}
+
+h1, p {
+    margin: 10px 0; /* Add margin to prevent overlap */
+}
+
+/* Layout for panels */
+.panels {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Increased gap between panels */
+    margin-top: 50px; /* Added space above panels */
+    z-index: 1;
+    flex-wrap: wrap; /* Allow panels to wrap for small screens */
+    padding: 20px;
+}
+
+/* Styling for individual panels */
+.panel {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    transition: transform 0.5s;
+    text-align: center;
+    width: 250px; /* Set fixed width for panels */
+    height: 300px; /* Set fixed height for panels */
+    margin: 10px; /* Ensure panels have space around them */
+}
+
+.panel:hover {
+    transform: rotateY(15deg) rotateX(10deg);
+}
+
+/* Buttons */
+.btn {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #ff6b6b, #556270);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #ffcc00, #ff6600);
+    transform: scale(1.1) rotateY(10deg);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+/* Footer Fix */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Added background for better visibility */
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 12px; /* Increased padding for larger clickable area */
+    color: white;
+    background: #444;
+    text-decoration: none;
+    border-radius: 50%; /* Circular button */
+    transition: background 0.3s;
+}
+
+.social-btn:hover {
+    background: #ff6600;
+}
+
+.social-btn i {
+    font-size: 30px; /* Larger icon size */
+    display: block;
+}
+
+/* FontAwesome Icons */
+.fab {
+    margin-right: 0;
+}
