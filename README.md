@@ -28,11 +28,11 @@ Nyayapay is a platform dedicated to ensuring **fairness and transparency in tran
 ## Installation & Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/Nyayapay.git
+   git clone https://github.com/krishnakant1794/NYAYAPAY.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd Nyayapay
+   cd NYAYAPAY
    ```
 3. Open `index.html` in a web browser.
 
@@ -47,7 +47,7 @@ Nyayapay/
 ```
 
 ## Screenshots
-![Nyayapay Homepage](screenshot.png)
+![Nyayapay Homepage](ChatGPT Image Mar 31, 2025, 11_37_34 PM.png)
 
 ## Future Enhancements
 - User authentication for role-based access.
