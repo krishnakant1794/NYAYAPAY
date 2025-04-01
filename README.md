@@ -1,4 +1,6 @@
-# Nyayapay - Fair & Transparent Transactions
+# Nyayapay - Fair & Transparent Transactions  
+
+## Website Link :- https://krishnakant1794.github.io/NYAYAPAY/
 
 ## Overview
 Nyayapay is a platform dedicated to ensuring **fairness and transparency in transactions** without treating essential services like **healthcare, education, and transportation** as business deals. The website provides an interactive, **3D-animated** experience with dynamic background effects, intuitive navigation, and multiple user panels for easy access.
