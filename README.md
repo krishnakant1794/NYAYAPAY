@@ -47,7 +47,7 @@ Nyayapay/
 ```
 
 ## Screenshots
-![Nyayapay Homepage](ChatGPT Image Mar 31, 2025, 11_37_34 PM.png)
+![Nyayapay Homepage](screenshot.png)
 
 ## Future Enhancements
 - User authentication for role-based access.
